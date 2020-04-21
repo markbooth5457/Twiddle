@@ -16,6 +16,16 @@
 		5D92764C244DDB3D001FB978 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D92764B244DDB3D001FB978 /* ExtensionDelegate.swift */; };
 		5D92764E244DDB3E001FB978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D92764D244DDB3E001FB978 /* Assets.xcassets */; };
 		5D927651244DDB3E001FB978 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D927650244DDB3E001FB978 /* Preview Assets.xcassets */; };
+		5D92766A244DDCF4001FB978 /* BillSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D927660244DDCF3001FB978 /* BillSplit.swift */; };
+		5D92766B244DDCF4001FB978 /* Ping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D927661244DDCF4001FB978 /* Ping.aiff */; };
+		5D92766C244DDCF4001FB978 /* Basso.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D927662244DDCF4001FB978 /* Basso.aiff */; };
+		5D92766D244DDCF4001FB978 /* Glass.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D927663244DDCF4001FB978 /* Glass.aiff */; };
+		5D92766E244DDCF4001FB978 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D927664244DDCF4001FB978 /* FizzBuzz.swift */; };
+		5D92766F244DDCF4001FB978 /* Submarine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D927665244DDCF4001FB978 /* Submarine.aiff */; };
+		5D927670244DDCF4001FB978 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D927666244DDCF4001FB978 /* PlaySound.swift */; };
+		5D927671244DDCF4001FB978 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D927667244DDCF4001FB978 /* Flags.swift */; };
+		5D927672244DDCF4001FB978 /* SimonSays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D927668244DDCF4001FB978 /* SimonSays.swift */; };
+		5D927673244DDCF4001FB978 /* Tink.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D927669244DDCF4001FB978 /* Tink.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +83,16 @@
 		5D92764D244DDB3E001FB978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D927650244DDB3E001FB978 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D927652244DDB3E001FB978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D927660244DDCF3001FB978 /* BillSplit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillSplit.swift; sourceTree = "<group>"; };
+		5D927661244DDCF4001FB978 /* Ping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Ping.aiff; sourceTree = "<group>"; };
+		5D927662244DDCF4001FB978 /* Basso.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Basso.aiff; sourceTree = "<group>"; };
+		5D927663244DDCF4001FB978 /* Glass.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Glass.aiff; sourceTree = "<group>"; };
+		5D927664244DDCF4001FB978 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		5D927665244DDCF4001FB978 /* Submarine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Submarine.aiff; sourceTree = "<group>"; };
+		5D927666244DDCF4001FB978 /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		5D927667244DDCF4001FB978 /* Flags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		5D927668244DDCF4001FB978 /* SimonSays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimonSays.swift; sourceTree = "<group>"; };
+		5D927669244DDCF4001FB978 /* Tink.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Tink.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +138,16 @@
 		5D927646244DDB3D001FB978 /* Twiddle WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5D927662244DDCF4001FB978 /* Basso.aiff */,
+				5D927660244DDCF3001FB978 /* BillSplit.swift */,
+				5D927664244DDCF4001FB978 /* FizzBuzz.swift */,
+				5D927667244DDCF4001FB978 /* Flags.swift */,
+				5D927663244DDCF4001FB978 /* Glass.aiff */,
+				5D927661244DDCF4001FB978 /* Ping.aiff */,
+				5D927666244DDCF4001FB978 /* PlaySound.swift */,
+				5D927668244DDCF4001FB978 /* SimonSays.swift */,
+				5D927665244DDCF4001FB978 /* Submarine.aiff */,
+				5D927669244DDCF4001FB978 /* Tink.aiff */,
 				5D927647244DDB3D001FB978 /* ContentView.swift */,
 				5D927649244DDB3D001FB978 /* HostingController.swift */,
 				5D92764B244DDB3D001FB978 /* ExtensionDelegate.swift */,
@@ -252,7 +282,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D92766F244DDCF4001FB978 /* Submarine.aiff in Resources */,
+				5D92766B244DDCF4001FB978 /* Ping.aiff in Resources */,
 				5D927651244DDB3E001FB978 /* Preview Assets.xcassets in Resources */,
+				5D92766D244DDCF4001FB978 /* Glass.aiff in Resources */,
+				5D927673244DDCF4001FB978 /* Tink.aiff in Resources */,
+				5D92766C244DDCF4001FB978 /* Basso.aiff in Resources */,
 				5D92764E244DDB3E001FB978 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D927672244DDCF4001FB978 /* SimonSays.swift in Sources */,
+				5D92766E244DDCF4001FB978 /* FizzBuzz.swift in Sources */,
+				5D927670244DDCF4001FB978 /* PlaySound.swift in Sources */,
 				5D92764A244DDB3D001FB978 /* HostingController.swift in Sources */,
+				5D92766A244DDCF4001FB978 /* BillSplit.swift in Sources */,
 				5D927648244DDB3D001FB978 /* ContentView.swift in Sources */,
 				5D92764C244DDB3D001FB978 /* ExtensionDelegate.swift in Sources */,
+				5D927671244DDCF4001FB978 /* Flags.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Twiddle WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				ENABLE_PREVIEWS = YES;
@@ -438,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Twiddle WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				ENABLE_PREVIEWS = YES;
@@ -462,12 +504,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				IBSC_MODULE = Twiddle_WatchKit_Extension;
 				INFOPLIST_FILE = "Twiddle WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markandpol.Twiddle.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -481,12 +526,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				IBSC_MODULE = Twiddle_WatchKit_Extension;
 				INFOPLIST_FILE = "Twiddle WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markandpol.Twiddle.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -499,7 +547,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.markandpol.Twiddle;
@@ -512,7 +560,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.markandpol.Twiddle;

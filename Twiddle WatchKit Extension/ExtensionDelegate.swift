@@ -7,7 +7,7 @@
 //
 
 import WatchKit
-
+let defaults = UserDefaults.standard
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
     func applicationDidFinishLaunching() {

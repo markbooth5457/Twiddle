@@ -1,4 +1,4 @@
-# Twidddle 
+# Twiddle 
 ### A compendium of small toys for the Apple Watch
 ##### Bill Split
 Calculates the amount required from each diner. Tap on a number (bill amount, percentage tip and number of people sharing the bill) and twiddle the Haptic Crown to alter the value.

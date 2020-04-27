@@ -121,7 +121,6 @@ struct SimonSays: View {
                     self.reader.restart()
             }.foregroundColor(.white)
                 .font(.body)
-
             VStack{
                 HStack {
                     siButton(colour: .red, sound: "Glass", image: "hexagon" )
@@ -132,7 +131,8 @@ struct SimonSays: View {
                     siButton(colour: .blue, sound: "Tink", image: "triangle")
                 }
            }
-        } .sheet(isPresented: $slipUp, onDismiss: {
+        } 
+        .sheet(isPresented: $slipUp, onDismiss: {
             if self.score > self.hiScore {
                 self.hiScore = self.score
             }
@@ -141,7 +141,7 @@ struct SimonSays: View {
             self.reader.clear()
         }){
             Text("Oooppss!\nYou scored \(self.score)\nHigh Score: \(self.hiScore)")
-        }
+        } 
     }
 }
 

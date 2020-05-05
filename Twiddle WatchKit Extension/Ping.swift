@@ -110,6 +110,7 @@ struct Ping: View {
         case .running:
             state.runState = .ready
         case .ended:
+            state.score = 0
             state.runState = .ready
         }
     }
@@ -151,7 +152,8 @@ struct Ping: View {
         } // zstack
             .onTapGesture {
                 self.doTap()
-        }
+        }.font(.body)
+        .foregroundColor(.white)
     }
 
 }

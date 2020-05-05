@@ -29,7 +29,11 @@ struct ContentView: View {
                 Text("Simon")
             }    .frame(height: 100.0)
                 .listRowPlatterColor(Color.yellow)
- 
+            NavigationLink(destination: Ping()){
+                Text("Ping")
+            }    .frame(height: 100.0)
+                .listRowPlatterColor(Color.yellow)
+
         }.foregroundColor(.black)
             .font(.system(size: 30))
         

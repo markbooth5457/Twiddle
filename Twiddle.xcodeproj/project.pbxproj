@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D02F05D24619FAA00C41F21 /* Ping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02F05C24619FAA00C41F21 /* Ping.swift */; };
+		5D02F0602461A12000C41F21 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02F05E2461A12000C41F21 /* Arc.swift */; };
+		5D02F0612461A12000C41F21 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02F05F2461A12000C41F21 /* Ball.swift */; };
 		5D927634244DDB3A001FB978 /* Twiddle WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5D927633244DDB3A001FB978 /* Twiddle WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5D92763A244DDB3A001FB978 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D927638244DDB3A001FB978 /* Interface.storyboard */; };
 		5D92763C244DDB3D001FB978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D92763B244DDB3D001FB978 /* Assets.xcassets */; };
@@ -71,6 +74,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D02F05C24619FAA00C41F21 /* Ping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ping.swift; sourceTree = "<group>"; };
+		5D02F05E2461A12000C41F21 /* Arc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		5D02F05F2461A12000C41F21 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
 		5D92762F244DDB3A001FB978 /* Twiddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twiddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D927633244DDB3A001FB978 /* Twiddle WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twiddle WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D927639244DDB3A001FB978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -138,6 +144,8 @@
 		5D927646244DDB3D001FB978 /* Twiddle WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5D02F05E2461A12000C41F21 /* Arc.swift */,
+				5D02F05F2461A12000C41F21 /* Ball.swift */,
 				5D927662244DDCF4001FB978 /* Basso.aiff */,
 				5D927660244DDCF3001FB978 /* BillSplit.swift */,
 				5D927664244DDCF4001FB978 /* FizzBuzz.swift */,
@@ -145,6 +153,7 @@
 				5D927663244DDCF4001FB978 /* Glass.aiff */,
 				5D927661244DDCF4001FB978 /* Ping.aiff */,
 				5D927666244DDCF4001FB978 /* PlaySound.swift */,
+				5D02F05C24619FAA00C41F21 /* Ping.swift */,
 				5D927668244DDCF4001FB978 /* SimonSays.swift */,
 				5D927665244DDCF4001FB978 /* Submarine.aiff */,
 				5D927669244DDCF4001FB978 /* Tink.aiff */,
@@ -299,12 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D02F0612461A12000C41F21 /* Ball.swift in Sources */,
 				5D927672244DDCF4001FB978 /* SimonSays.swift in Sources */,
 				5D92766E244DDCF4001FB978 /* FizzBuzz.swift in Sources */,
+				5D02F0602461A12000C41F21 /* Arc.swift in Sources */,
 				5D927670244DDCF4001FB978 /* PlaySound.swift in Sources */,
 				5D92764A244DDB3D001FB978 /* HostingController.swift in Sources */,
 				5D92766A244DDCF4001FB978 /* BillSplit.swift in Sources */,
 				5D927648244DDB3D001FB978 /* ContentView.swift in Sources */,
+				5D02F05D24619FAA00C41F21 /* Ping.swift in Sources */,
 				5D92764C244DDB3D001FB978 /* ExtensionDelegate.swift in Sources */,
 				5D927671244DDCF4001FB978 /* Flags.swift in Sources */,
 			);
@@ -454,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Twiddle WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				ENABLE_PREVIEWS = YES;
@@ -479,7 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Twiddle WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				ENABLE_PREVIEWS = YES;
@@ -506,7 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				IBSC_MODULE = Twiddle_WatchKit_Extension;
 				INFOPLIST_FILE = "Twiddle WatchKit App/Info.plist";
@@ -528,7 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				IBSC_MODULE = Twiddle_WatchKit_Extension;
 				INFOPLIST_FILE = "Twiddle WatchKit App/Info.plist";
@@ -546,12 +558,14 @@
 		5D92765E244DDB3E001FB978 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.markandpol.Twiddle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -559,12 +573,14 @@
 		5D92765F244DDB3E001FB978 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = H4EAMFF2AB;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.markandpol.Twiddle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

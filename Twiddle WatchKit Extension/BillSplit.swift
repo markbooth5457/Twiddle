@@ -29,7 +29,7 @@ struct BillSplit: View {
         return amountPerPerson
     }
     var body: some View {
-        VStack(alignment: .center, spacing: 10.0){
+        VStack(alignment: .center, spacing: 8.0){
             HStack {
                 Text("Bill")
                 Spacer()
@@ -87,7 +87,7 @@ struct BillSplit: View {
                 Spacer()
                 Text("Each")
             }
-        } .padding(.horizontal, 20.0)
+        } .padding(.horizontal, 5.0)
             .foregroundColor(.white)
             .font(.body)
     }
